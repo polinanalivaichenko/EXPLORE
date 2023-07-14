@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Montserrat";
-    src: url();
+    src: url("../fonts/Lato/Lato-Bold.ttf");
+     src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
 }
 body {
     font-family: "Montserrat", sans-serif;
@@ -30,7 +31,20 @@ body {
     position: absolute;
     width: 100%;
 }
+.header {
+}
 
+.header-logo {
+    padding: 60px;
+    display: block;
+    margin: auto;
+}
+.header-menu {
+   display: inline-flex;
+   width: 100%;
+   justify-content: center;
+   margin-bottom: 58px;
+}
 .header-logo {
     padding: 60px;
     display: block;
@@ -43,7 +57,7 @@ body {
     flex-direction: column;
     flex-shrink: 0;
     color: #FFF;
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: normal;
@@ -82,6 +96,7 @@ body {
     display: flex;
     column-gap: 14px;
     margin-bottom: 20px;
+    
 }
 
 .blog-block__view-person__record {
@@ -94,4 +109,355 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 35px;
+    color: #FFF;
+    font-family: "Montserrat",sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 125% */
+    width: 470px;
 }
+.blog-block__description {
+    color: #333;
+    font-family: "Lato",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+    display: flex;
+    width: 800px;
+    padding: 35px 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #FFF;
+}
+.blog-block__description_1 {
+    color: #8D4FDB;
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 176.471% */
+    width: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #FFF;
+    margin-top: 2px;
+}
+
+.stories {
+    display: block;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.stories-block {
+    width: inherit;
+    height: fit-content;
+    
+}
+
+.stories-block__view {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 60px 40px;
+    width: inherit;
+    height: 330px;
+    background: url(../images/JESSICA.jpg);
+    object-fit: contain;
+    background-size: 100%;
+}
+
+.stories-block__view-person {
+    margin-top: 160px;
+    display: flex;
+    column-gap: 14px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.stories-block__view-person img {
+    width: 40px;
+}
+
+.stories-block__view-person__record {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    width: 100%;
+}
+.stories-block__view-title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    color: #FFF;
+    font-family: "Montserrat",sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 125% */
+    width: 470px;
+}
+.stories-block__description {
+    color: #333;
+    font-family: "Lato",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+    width: 800px;
+    display: flex;
+    padding: 35px 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #FFF;
+}
+.stories-block__description-link {
+    color: #8D4FDB;
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 176.471% */
+    width: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #FFF;
+    margin-top: 2px;
+}
+
+.Photography {
+    display: block;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Photography-block {
+    width: inherit;
+    height: fit-content;
+    
+}
+
+.Photography-block__view {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 60px 40px;
+    width: inherit;
+    height: 330px;
+    background: url(../images/горы.png);
+    object-fit: contain;
+    background-size: 100%;
+}
+
+.Photography-block__view-person {
+    margin-top: 160px;
+    display: flex;
+    column-gap: 14px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.Photography-block__view-person img {
+    width: 40px;
+}
+
+.Photography-block__view-person__record {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    width: 100%;
+}
+.Photography-block__view-title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    color: #FFF;
+    font-family: "Montserrat",sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 125% */
+    width: 470px;
+}
+.Photography-block__description {
+    color: #333;
+    font-family: "Lato",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+    width: 800px;
+    display: flex;
+    padding: 35px 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #FFF;
+}
+.Photography-block__description-link {
+    color: #8D4FDB;
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 176.471% */
+    width: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #FFF;
+    margin-top: 2px;
+}
+.read-more {
+    width: 800px;
+    height: 211px;
+    background: #F1F1F1;
+    margin-right: 320px;
+}
+.read-more__title {
+    color: #333;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 120% */
+    padding: 49px;
+}
+.read-more__button {
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 300% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 182px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #8D4FDB;
+     margin-left: auto;
+     margin-right: auto;
+     margin-left: 309px;
+}
+
+.featured {
+    width: 100%;
+    height: 678px;
+    background: #FFF;
+}
+
+.featured-title{
+    color: #333;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    width: 373px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.featured-question {
+    color: #A9AFB3;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 143.478% */
+    width: 373px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.featured-content__block-image {
+    width: 300px;
+    height: 190px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.featured-content__block-text {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    width: 230px;
+}
+.featured-read__text {
+    color: #333;
+    text-align: center;
+    font-family: "Lato",sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 200% */
+    width: 212px;
+    flex-shrink: 0; 
+}
+
+.featured-read__link {
+    color: #8D4FDB;
+    text-align: center;
+    font-family: "Lato",sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 200% */
+    width: 119px;
+    flex-shrink:0; 
+}
+.featured-content {
+   display: flex;
+   margin-top: 50px;
+   margin-left: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
